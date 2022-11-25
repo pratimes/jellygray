@@ -175,7 +175,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 }
 .cardOverlayFab-primary {
     background-color: #00000000;
-    transistion: 8sec;
 }
 .cardOverlayButtonIcon {
     background-color: #00000000 !important;
@@ -904,5 +903,5 @@ div.starRatingContainer {
   height: 10vh;
 }
 .headerTabs {display:block;}
-
 .emby-tabs-slider {display:block;font-size: 80%}
+
