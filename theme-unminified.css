@@ -187,10 +187,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
     background: rgba(0, 0, 0, 0) !important;
 }
 
-.itemProgressBar {
-  height: 5px;
-  background: rgba(0,0,0,.5);
-}
+
 
 .cardIndicators {
     right: 0.3em;
@@ -370,10 +367,7 @@ div.personCard > :first-child > :first-child {
     text-size-adjust: 110%;
     font-size: 110%;
 }
-.pageTitle {
-    margin-top: auto;
-    margin-bottom: auto;
-}
+
 .emby-tab-button {
     padding: 1.75em 1.7em;
 }
@@ -509,9 +503,15 @@ video:cue {
 .playbackProgress > div {
     background-color: rgba(0, 0, 0, 0.75);
 }
+
+.itemProgressBar {
+  height: 10px;
+  background: rgba(0,0,0,.5);
+}
+
 .itemProgressBarForeground,
 .transcodingProgress > div {
-    background-color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(93,208,0,0.7);
 }
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
     border-radius: 0 !important;
@@ -656,9 +656,7 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 .actionSheetMenuItem:hover {
     background-color: #5D5D62;
 }
-.listItemIcon:not {
-    background-color: #5D5D62 !important;
-}
+
 .dashboardFooter {
     display: none;
 }
@@ -681,9 +679,6 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 }
 .inputLabelFocused {
     color: #808080;
-}
-.listItemIcon {
-    background-color: #5D5D62 !important;
 }
 .mdl-spinner__layer-1 {
     border-color: #5D5D62;
@@ -761,6 +756,11 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 :not(.detailPageSecondaryContainer) > .card:not(.overflowSquareCard):hover .cardImageContainer::before {
     transform: scale(1.02);
 }
+
+.layout-desktop .detailImageContainer .card {
+    top:0%;
+}
+
 .button-accent-flat {
     color: #8B8B7E !important;
 }
@@ -868,13 +868,27 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     background: rgba(0, 0, 0, 0.5);
 }
 
-.headerCastButton {display: none;}
-.headerSyncButton {display: none;}
-#castCollapsible {display: none;}
-div.nextUpSection {display: none;}
-#similarCollapsible  {display:none;}
-div.starRatingContainer {display: none;}
-
+.headerCastButton {
+    display: none;
+}
+.headerSyncButton {
+    display: none;
+}
+#castCollapsible {
+    display: none;
+}
+div.nextUpSection {
+    display: none;
+}
+#similarCollapsible  {
+    display:none;
+}
+div.starRatingContainer {
+    display: none;
+}
+.pageTitle {
+    display: none;
+}
 
 .itemBackdrop {
         height: 15vh; !important;
