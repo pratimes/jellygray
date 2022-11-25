@@ -511,7 +511,7 @@ video:cue {
 
 .itemProgressBarForeground,
 .transcodingProgress > div {
-    background-color: rgba(93,208,0,0.7);
+    background-color: rgba(192,0,0,0.7);
 }
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
     border-radius: 0 !important;
@@ -695,11 +695,11 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 .countIndicator,
 .fullSyncIndicator,
 .playedIndicator {
-    background: rgba(93,208,0,0.6);
+    background: rgba(192,0,0,0.5);
     color: #fff;
 }
 .playedIndicator {
-    background: rgba(93,208,0,0.6);
+    background: rgba(192,0,0,0.5);
     color: #fff;
 }
 .textActionButton:hover {
@@ -904,5 +904,5 @@ div.starRatingContainer {
   height: 10vh;
 }
 .headerTabs {display:block;}
-.emby-tabs-slider {display:block;font-size: 80%}
 
+.emby-tabs-slider {display:block;font-size: 80%}
