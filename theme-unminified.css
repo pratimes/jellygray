@@ -316,24 +316,7 @@ div.alphaPickerRow-vertical {
 #scenesCollapsible {
     display: none;
 }
-#castContent .card.overflowPortraitCard {
-    width: 4.2cm;
-    font-size: 90%;
-}
-#castContent .personCard {
-    width: auto;
-}
-#castContent .personCard .cardBox {
-    margin-bottom: 0;
-    margin-right: 0;
-}
-#castContent {
-    flex-wrap: wrap;
-    max-height: 9.75em;
-}
-div.personCard > :first-child > :first-child {
-    display: none;
-}
+
 .itemDetailPage .cardText {
     text-align: left;
 }
@@ -499,19 +482,7 @@ video:cue {
     border-radius: 0 !important;
     background: rgba(0, 0, 0, 0.7);
 }
-.playbackProgress > div {
-    background-color: rgba(0, 0, 0, 0.75);
-}
 
-.itemProgressBar {
-  height: 10px;
-  background: rgba(0,0,0,.5);
-}
-
-.itemProgressBarForeground,
-.transcodingProgress > div {
-    background-color: rgba(192,0,0,0.7);
-}
 .innerCardFooter.fullInnerCardFooter.innerCardFooterClear {
     border-radius: 0 !important;
     background: rgba(0, 0, 0, 0);
@@ -554,6 +525,7 @@ video:cue {
 }
 .navMenuOption:hover {
     background: rgba(223, 238, 234, 0.2);
+    border-radius: 10px !important;
 }
 .block {
     background-color: #5D5D62;
@@ -567,13 +539,13 @@ video:cue {
     border-style: none;
 }
 .defaultCardBackground1 {
-    background-color: #737377;
+    background-color: #696969;
 }
 .defaultCardBackground2 {
     background-color: #737377;
 }
 .defaultCardBackground3 {
-    background-color: #737377;
+    background-color: #808080;
 }
 .defaultCardBackground4 {
     background-color: #444445;
@@ -583,6 +555,7 @@ video:cue {
 }
 .navMenuOption-selected {
     background-color: rgba(223, 238, 234, 0.2) !important;
+    border-radius: 10px !important;
 }
 :root {
     --swiper-theme-color: #5D5D62;
@@ -727,34 +700,6 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 .playstatebutton-icon-played:hover {
     color: #5D5D62;
 }
-:not(.detailImageContainer) > .card:not(.overflowSquareCard) .cardImageContainer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: inherit;
-    background-size: cover;
-    transition: 0.4s;
-}
-:not(.detailImageContainer) > .card:not(.overflowSquareCard):hover .cardImageContainer::before {
-    transform: scale(1.02);
-}
-:not(.detailPageSecondaryContainer) > .card:not(.overflowSquareCard) .cardImageContainer::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: inherit;
-    background-size: cover;
-    transition: 0.4s;
-}
-:not(.detailPageSecondaryContainer) > .card:not(.overflowSquareCard):hover .cardImageContainer::before {
-    transform: scale(1.02);
-}
 
 .layout-desktop .detailImageContainer .card {
     top:0%;
@@ -873,18 +818,14 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 .headerSyncButton {
     display: none;
 }
-#castCollapsible {
-    display: none;
-}
+
 div.nextUpSection {
     display: none;
 }
 #similarCollapsible  {
     display:none;
 }
-div.starRatingContainer {
-    display: none;
-}
+
 .pageTitle {
     display: none;
 }
@@ -905,3 +846,175 @@ div.starRatingContainer {
 .headerTabs {display:block;}
 .emby-tabs-slider {display:block;font-size: 80%}
 
+@media (min-width: 100em)
+.overflowPortraitCard, .overflowSquareCard {
+  width: 10vw;
+}
+@media (min-width: 100em)
+.overflowBackdropCard, .overflowSmallBackdropCard {
+  width: 15vw;
+}
+
+.layout-mobile .itemExternalLinks {
+  display: block !important;
+}
+
+
+/*Shrink and square (or round) cast thumnails*/
+@media all and (min-width: 131.25em){
+  #castContent .card.overflowPortraitCard {
+    width: 6.3vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 120em) and (max-width: 131.25em){
+  #castContent .card.overflowPortraitCard {
+    width: 6.4vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 100em) and (max-width: 120em){
+  #castContent .card.overflowPortraitCard {
+    width: 7.6vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 87.5em) and (max-width: 100em){
+  #castContent .card.overflowPortraitCard {
+    width: 9.3vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 75em) and (max-width: 87.5em){
+  #castContent .card.overflowPortraitCard {
+    width: 10.5vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 50em) and (max-width: 75em){
+  #castContent .card.overflowPortraitCard {
+    width: 15vw !important;
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 43.75em) and (max-width: 50em){
+  #castContent .card.overflowPortraitCard {
+    width: 20.1vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (min-width: 25em) and (max-width: 43.75em){
+  #castContent .card.overflowPortraitCard {
+    width: 31.2vw !important; 
+    font-size: 90% !important;
+  }
+}
+@media all and (max-width: 25em){
+  #castContent .card.overflowPortraitCard {
+    width: 40vw !important; 
+    font-size: 90% !important;
+  }
+}
+
+.cardPadder {
+  background-color: #0000 !important; box-shadow: none !important;
+}
+
+/*Correct image aspect ratio behaviour, set border-radius to zero for square tiles*/
+
+@media all and (min-width: 131.25em){
+  #castContent .cardScalable {
+    width: calc(6.3vw - 0.6em) !important; 
+    height: calc(6.3vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 120em) and (max-width: 131.25em){
+  #castContent .cardScalable {
+    width:  calc(6.4vw - 0.6em) !important; 
+    height: calc(6.4vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 100em) and (max-width: 120em){
+  #castContent .cardScalable {
+    width:  calc(7.6vw - 0.6em) !important; 
+    height: calc(7.6vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 87.5em) and (max-width: 100em){
+  #castContent .cardScalable {
+    width:  calc(9.3vw - 0.6em) !important; 
+    height: calc(9.3vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 75em) and (max-width: 87.5em){
+  #castContent .cardScalable {
+    width:  calc(10.5vw - 0.6em) !important; 
+    height: calc(10.5vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 50em) and (max-width: 75em){
+  #castContent .cardScalable {
+    width:  calc(15vw - 0.6em) !important; 
+    height: calc(15vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 43.75em) and (max-width: 50em){
+  #castContent .cardScalable {
+    width:  calc(20.1vw - 0.6em) !important; 
+    height: calc(20.1vw - 0.6em) !important;
+  }
+}
+@media all and (min-width: 25em) and (max-width: 43.75em){
+  #castContent .cardScalable {
+    width:  calc(31.2vw - 0.6em) !important; 
+    height: calc(31.2vw - 0.6em) !important;
+  }
+}
+@media all and (max-width: 25em){
+  #castContent .cardScalable {
+    width:  calc(40vw - 0.6em) !important;
+    height: calc(40vw - 0.6em) !important;
+  }
+}
+
+
+/*New progress bar*/
+#indexPage .innerCardFooterClear,
+#itemDetailPage .innerCardFooterClear {
+    background-color: transparent !important;
+    box-shadow: none;
+}
+#indexPage .itemProgressBarForeground,
+#itemDetailPage .itemProgressBarForeground,
+#indexPage .itemProgressBar,
+#itemDetailPage .itemProgressBar {
+    border-radius: var(--rounding);
+}
+#indexPage .itemProgressBarForeground,
+#itemDetailPage .itemProgressBarForeground  {
+    background-color: rgb(240,0,0); !important;
+}
+#indexPage .itemProgressBar,
+#itemDetailPage .itemProgressBar {
+    height: 4px;
+    background: rgba(0,0,0,0.4);
+    margin: .5em .8em;
+}
+/*Accommodate play button on mobile*/
+@media all and (max-width: 100em){
+  #indexPage .itemProgressBar,
+  #itemDetailPage .itemProgressBar {
+    margin-right: 3.2em;
+  }
+}
+@supports (backdrop-filter: blur(15px)) {
+  #indexPage .itemProgressBar,
+  #itemDetailPage .itemProgressBar{
+    backdrop-filter: blur(4px);
+    background: rgba(0, 0, 0, 0.35) !important;
+  }
+}
+
+.listItemIcon:not(.listItemIcon-transparent) {
+   background-color: rgba(0, 0, 0, 0) !important;
+}
