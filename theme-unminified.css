@@ -300,10 +300,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 .material-icons.person {
     display: none;
 }
-.headerButton.headerButtonRight.headerUserButton.paper-icon-button-light {
-    display: none;
-}
-
 div.alphaPickerRow-vertical {
     display: none !important;
 }
