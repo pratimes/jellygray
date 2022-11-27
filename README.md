@@ -2,7 +2,12 @@
 A clean jellyfin skin with joy of gray.
 
 ## Installation
-
+1. Go to Settings -> Display -> 
+  - `Theme: Dark`
+  - `Server Dashboard theme: Dark`
+  - `Backdrops: check`
+  - `Details Banner: uncheck`
+2. Add below line in `Custom CSS code`
 ```css
 @import url('https://pratimes.github.io/jellygray/theme.css');
 ```
