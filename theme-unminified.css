@@ -1,10 +1,8 @@
-/*Background login*/
 #loginPage {
 background-image: url('/Branding/Splashscreen?format=jpg&foregroundLayer=0.4');
 background-position: center;
 background-size: cover;
 }
-
 .manualLoginForm {
     display: block;
     margin-left: auto;
@@ -179,9 +177,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 .cardOverlayFab-primary {
     background-color: #00000000;
 }
-.cardOverlayButtonIcon {
-    background-color: #00000000 !important;
-}
+
 .detailLogo {
     display: none;
 }
@@ -195,14 +191,8 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 .paper-icon-button-light:hover {
     background-color: rgba(0, 0, 0, 0);
 }
-.cardOverlayButtonIcon {
-    background-color: #00000000 !important;
-}
 .cardOverlayContainer {
     background-color: rgba(0, 0, 0, 0.7);
-}
-.cardOverlayButtonIcon {
-    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 .cardOverlayButton {
     padding: 0.3em;
@@ -277,12 +267,7 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
         display: none;
     }
 }
-.raised.homeLibraryButton:hover {
-    transition: filter 1s;
-}
-.raised.homeLibraryButton {
-    transition: filter 1s;
-}
+
 .homeLibraryButton {
     min-width: 12em;
     margin: 0.4em;
@@ -538,13 +523,13 @@ video:cue {
     background-color: #303030;
 }
 .defaultCardBackground2 {
-    background-color: #737377;
+    background-color: #404040;
 }
 .defaultCardBackground3 {
-    background-color: #808080;
+    background-color: #505050;
 }
 .defaultCardBackground4 {
-    background-color: #444445;
+    background-color: #606060;
 }
 .defaultCardBackground5 {
     background-color: #808080;
@@ -609,12 +594,7 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 .button-submit:hover {
     background: rgba(196, 196, 188, 0.8);
 }
-.cardOverlayButtonIcon:hover {
-    background-color: rgba(196, 196, 188, 0.5) !important;
-}
-.cardOverlayButtonIcon {
-    background-color: rgba(0, 0, 0, 0) !important;
-}
+
 .cardOverlayContainer {
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -702,10 +682,10 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 }
 
 .button-accent-flat {
-    color: #8B8B8B !important;
+    color: #8B8B7E !important;
 }
 .jstree-default .jstree-wholerow-clicked {
-    background: #8B8B8B !important;
+    background: #8B8B7E !important;
 }
 .metadataSidebarIcon {
     color: #5D5D62;
@@ -808,7 +788,56 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     background: rgba(0, 0, 0, 0.5);
 }
 
-/*Shrink and square (or round) cast thumnails*/
+.headerCastButton {
+    display: none;
+}
+.headerSyncButton {
+    display: none;
+}
+
+div.nextUpSection {
+    display: none;
+}
+#similarCollapsible  {
+    display:none;
+}
+.pageTitle {
+    display: none;
+}
+.itemBackdrop {
+        height: 15vh; !important;
+        background-image: none !important;
+}
+
+.layout-desktop .itemBackdrop::after {
+    opacity: 0;
+    margin-top: -30px;
+}
+
+.layout-mobile .itemBackdrop {
+  height: 10vh;
+}
+.headerTabs {
+	display:block;
+}
+.emby-tabs-slider {
+	display:block;
+	font-size: 80%
+}
+
+@media (min-width: 100em)
+.overflowPortraitCard, .overflowSquareCard {
+  width: 10vw;
+}
+@media (min-width: 100em)
+.overflowBackdropCard, .overflowSmallBackdropCard {
+  width: 15vw;
+}
+
+.layout-mobile .itemExternalLinks {
+  display: block !important;
+}
+
 @media all and (min-width: 131.25em){
   #castContent .card.overflowPortraitCard {
     width: 6.3vw !important; 
@@ -867,9 +896,6 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 .cardPadder {
   background-color: #0000 !important; box-shadow: none !important;
 }
-
-/*Correct image aspect ratio behaviour, set border-radius to zero for square tiles*/
-
 @media all and (min-width: 131.25em){
   #castContent .cardScalable {
     width: calc(6.3vw - 0.6em) !important; 
@@ -924,7 +950,7 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     height: calc(40vw - 0.6em) !important;
   }
 }
-/*New progress bar*/
+
 #indexPage .innerCardFooterClear,
 #itemDetailPage .innerCardFooterClear {
     background-color: transparent !important;
@@ -965,51 +991,8 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
    background-color: rgba(0, 0, 0, 0) !important;
 }
 
-
-.headerCastButton {
-    display: none;
+.cardOverlayFab-primary:hover {
+ -webkit-transform:none;
+ transform:none;
+ transition:initial;
 }
-.headerSyncButton {
-    display: none;
-}
-
-div.nextUpSection {
-    display: none;
-}
-#similarCollapsible  {
-    display:none;
-}
-
-.pageTitle {
-    display: none;
-}
-
-.itemBackdrop {
-        height: 15vh; !important;
-        background-image: none !important;
-}
-
-.layout-desktop .itemBackdrop::after {
-    opacity: 0;
-    margin-top: -30px;
-}
-
-.layout-mobile .itemBackdrop {
-  height: 10vh;
-}
-.headerTabs {display:block;}
-.emby-tabs-slider {display:block;font-size: 80%}
-
-@media (min-width: 100em)
-.overflowPortraitCard, .overflowSquareCard {
-  width: 10vw;
-}
-@media (min-width: 100em)
-.overflowBackdropCard, .overflowSmallBackdropCard {
-  width: 15vw;
-}
-
-.layout-mobile .itemExternalLinks {
-  display: block !important;
-}
-
