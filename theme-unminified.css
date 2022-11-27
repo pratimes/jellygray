@@ -334,6 +334,9 @@ div.alphaPickerRow-vertical {
 .emby-tab-button {
     padding: 1.75em 1.7em;
 }
+.emby-tab-button:hover {
+    color: #BCBCBC;
+}
 .itemDetailPage .moreFromSeasonSection {
     display: none !important;
 }
