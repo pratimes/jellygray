@@ -1,7 +1,10 @@
+/*Background login*/
 #loginPage {
-    background: url(https://i.imgur.com/gRb1gL2.png?maxwidth=1520&fidelity=grand);
-    background-size: cover;
+background-image: url('/Branding/Splashscreen?format=jpg&foregroundLayer=0.4');
+background-position: center;
+background-size: cover;
 }
+
 .manualLoginForm {
     display: block;
     margin-left: auto;
@@ -185,9 +188,6 @@ div[data-role="controlgroup"] a[data-role="button"]:last-child {
 .detailPagePrimaryContainer {
     background: rgba(0, 0, 0, 0) !important;
 }
-
-
-
 .cardIndicators {
     right: 0.3em;
     top: 0.3em;
@@ -535,7 +535,7 @@ video:cue {
     border-style: none;
 }
 .defaultCardBackground1 {
-    background-color: #696969;
+    background-color: #303030;
 }
 .defaultCardBackground2 {
     background-color: #737377;
@@ -681,7 +681,7 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     color: #808080 !important;
 }
 .dialog {
-    background-color: #737377;
+    background-color: #303030;
 }
 .listItem-border {
     border-style: none;
@@ -702,10 +702,10 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 }
 
 .button-accent-flat {
-    color: #8B8B7E !important;
+    color: #8B8B8B !important;
 }
 .jstree-default .jstree-wholerow-clicked {
-    background: #8B8B7E !important;
+    background: #8B8B8B !important;
 }
 .metadataSidebarIcon {
     color: #5D5D62;
@@ -807,54 +807,6 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 .subtitleSyncContainer {
     background: rgba(0, 0, 0, 0.5);
 }
-
-.headerCastButton {
-    display: none;
-}
-.headerSyncButton {
-    display: none;
-}
-
-div.nextUpSection {
-    display: none;
-}
-#similarCollapsible  {
-    display:none;
-}
-
-.pageTitle {
-    display: none;
-}
-
-.itemBackdrop {
-        height: 15vh; !important;
-        background-image: none !important;
-}
-
-.layout-desktop .itemBackdrop::after {
-    opacity: 0;
-    margin-top: -30px;
-}
-
-.layout-mobile .itemBackdrop {
-  height: 10vh;
-}
-.headerTabs {display:block;}
-.emby-tabs-slider {display:block;font-size: 80%}
-
-@media (min-width: 100em)
-.overflowPortraitCard, .overflowSquareCard {
-  width: 10vw;
-}
-@media (min-width: 100em)
-.overflowBackdropCard, .overflowSmallBackdropCard {
-  width: 15vw;
-}
-
-.layout-mobile .itemExternalLinks {
-  display: block !important;
-}
-
 
 /*Shrink and square (or round) cast thumnails*/
 @media all and (min-width: 131.25em){
@@ -972,8 +924,6 @@ div.nextUpSection {
     height: calc(40vw - 0.6em) !important;
   }
 }
-
-
 /*New progress bar*/
 #indexPage .innerCardFooterClear,
 #itemDetailPage .innerCardFooterClear {
@@ -1014,3 +964,52 @@ div.nextUpSection {
 .listItemIcon:not(.listItemIcon-transparent) {
    background-color: rgba(0, 0, 0, 0) !important;
 }
+
+
+.headerCastButton {
+    display: none;
+}
+.headerSyncButton {
+    display: none;
+}
+
+div.nextUpSection {
+    display: none;
+}
+#similarCollapsible  {
+    display:none;
+}
+
+.pageTitle {
+    display: none;
+}
+
+.itemBackdrop {
+        height: 15vh; !important;
+        background-image: none !important;
+}
+
+.layout-desktop .itemBackdrop::after {
+    opacity: 0;
+    margin-top: -30px;
+}
+
+.layout-mobile .itemBackdrop {
+  height: 10vh;
+}
+.headerTabs {display:block;}
+.emby-tabs-slider {display:block;font-size: 80%}
+
+@media (min-width: 100em)
+.overflowPortraitCard, .overflowSquareCard {
+  width: 10vw;
+}
+@media (min-width: 100em)
+.overflowBackdropCard, .overflowSmallBackdropCard {
+  width: 15vw;
+}
+
+.layout-mobile .itemExternalLinks {
+  display: block !important;
+}
+
