@@ -485,6 +485,11 @@ video:cue {
     background-color: rgba(234, 234, 234, 0.2);
     border-style: hidden;
 }
+
+.playbackProgress>div {
+ background-color:#BCBCBC;
+}
+
 .mdl-slider-background-lower {
     background-color: #BCBCBC;
 }
@@ -561,6 +566,10 @@ progress::-moz-progress-bar {
 progress::-webkit-progress-value {
     background-color: rgba(196, 196, 196, 0.75);
 }
+progress[aria-valuenow]:before {
+ background-color:rgba(196, 196, 196, 0.75);
+}
+
 #divRunningTasks span {
     color: rgba(196, 196, 196, 0.75) !important;
 }
