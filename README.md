@@ -62,3 +62,7 @@ add_header Content-Security-Policy "default-src https: data: blob: http://image.
 
 #### Actor Page
 ![actor-page](https://user-images.githubusercontent.com/108912069/204138251-a8501ac1-38b5-4952-bbb0-344ac33f4048.png)
+
+
+## Thanks
+This css theme is based on [HintOfGreenCSS](https://github.com/looi-wh/HintOfGreenCSS) by looi-wh and [Ultrachromic](https://github.com/CTalvio/Ultrachromic) by CTalvio.
