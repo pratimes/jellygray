@@ -29,11 +29,14 @@ add_header Content-Security-Policy "default-src https: data: blob: http://image.
 ![homepage](https://user-images.githubusercontent.com/108912069/204138258-8e0c6c92-ac4b-4f6b-bbe8-75a531a03469.png)
 
 #### Movie List Page
-![movie](https://user-images.githubusercontent.com/108912069/204138268-6ae4e79c-58a1-4678-9667-eb60e35aaf2b.png)
+![moviepage](https://user-images.githubusercontent.com/108912069/204138275-288667e8-4e4f-40c5-a8d8-dc943e95e808.png)
+
 
 #### Some Movie Pages
+![movie](https://user-images.githubusercontent.com/108912069/204138268-6ae4e79c-58a1-4678-9667-eb60e35aaf2b.png)
+
 ![movie_item](https://user-images.githubusercontent.com/108912069/204138272-b715b70e-daa5-4de6-a2d9-faf8ea2b30a0.png)
-![moviepage](https://user-images.githubusercontent.com/108912069/204138275-288667e8-4e4f-40c5-a8d8-dc943e95e808.png)
+
 ![movie_item2](https://user-images.githubusercontent.com/108912069/204138274-7b2774ed-7945-438a-82ef-60289e0edaf1.png)
 
 #### TV Show Page
