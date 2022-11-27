@@ -14,19 +14,19 @@ background-size: cover;
 }
 #loginPage .button-submit {
     margin-top: 50px;
-    background: #5D5D62;
+    background: #5D5D5D;
 }
 #loginPage .checkboxContainer {
     display: none;
 }
 #loginPage .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #5D5D62;
+    border-color: #5D5D5D;
 }
 #loginPage .inputLabelFocused,
 .selectLabelFocused,
 .textareaLabelFocused {
-    color: #5D5D62;
+    color: #5D5D5D;
 }
 .manualLoginForm {
     display: block;
@@ -39,19 +39,19 @@ background-size: cover;
 }
 #loginPage .button-submit {
     margin-top: 50px;
-    background: #5D5D62;
+    background: #5D5D5D;
 }
 #loginPage .checkboxContainer {
     display: none;
 }
 #loginPage .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #5D5D62;
+    border-color: #5D5D5D;
 }
 #loginPage .inputLabelFocused,
 .selectLabelFocused,
 .textareaLabelFocused {
-    color: #5D5D62;
+    color: #5D5D5D;
 }
 #loginPage .raised.cancel.block.btnManual.emby-button {
     display: none;
@@ -73,7 +73,7 @@ background-size: cover;
 
 .emby-input:focus,
 .emby-textarea:focus {
-    border-color: #5D5D62;
+    border-color: #5D5D5D;
 }
 @media all and (min-width: 50em) {
     .homePage .emby-scroller {
@@ -469,30 +469,33 @@ video:cue {
     background: rgba(0, 0, 0, 0);
 }
 .button-link {
-    color: #8B8B7E;
+    color: #8B8B8B;
 }
 @media (hover: hover) and (pointer: fine) {
     .paper-icon-button-light:hover:not(:disabled) {
         color: #808080;
-        background-color: rgba(93, 93, 98, 0.2);
+        background-color: rgba(93, 93, 93, 0.2);
     }
 }
 .emby-select,
 .emby-select-withcolor {
-    background-color: rgba(223, 238, 234, 0.2);
+    background-color: rgba(234, 234, 234, 0.2);
     border-style: hidden;
 }
 .mdl-slider-background-lower {
+    background-color: #BCBCBC;
+}
+.mdl-slider-background-upper {
     background-color: #808080;
 }
 .mdl-slider::-moz-range-thumb {
-    background: #808080;
+    background: #BCBCBC;
 }
 .mdl-slider::-ms-thumb {
-    background: #808080;
+    background: #BCBCBC;
 }
 .mdl-slider::-webkit-slider-thumb {
-    background: #808080;
+    background: #BCBCBC;
 }
 .iconOsdProgressInner {
     background: #808080;
@@ -505,18 +508,18 @@ video:cue {
     color: #808080;
 }
 .navMenuOption:hover {
-    background: rgba(223, 238, 234, 0.2);
+    background: rgba(234, 234, 234, 0.2);
     border-radius: 10px !important;
 }
 .block {
-    background-color: #5D5D62;
+    background-color: #5D5D5D;
 }
 .checkboxIcon-checked {
-    background-color: #5D5D62;
+    background-color: #5D5D5D;
     border-style: none;
 }
 .emby-checkbox:checked + span + .checkboxOutline {
-    background-color: #5D5D62;
+    background-color: #5D5D5D;
     border-style: none;
 }
 .defaultCardBackground1 {
@@ -535,38 +538,38 @@ video:cue {
     background-color: #808080;
 }
 .navMenuOption-selected {
-    background-color: rgba(223, 238, 234, 0.2) !important;
+    background-color: rgba(234, 234, 234, 0.2) !important;
     border-radius: 10px !important;
 }
 :root {
-    --swiper-theme-color: #5D5D62;
+    --swiper-theme-color: #5D5D5D;
 }
 progress {
     background: rgba(0, 0, 0, 0.5) !important;
-    border: 1px solid rgba(196, 196, 188, 0.22);
+    border: 1px solid rgba(196, 196, 196, 0.22);
 }
 progress::-webkit-progress-bar {
     background: rgba(0, 0, 0, 0.5) !important;
-    border: 0 solid rgba(196, 196, 188, 0.22);
+    border: 0 solid rgba(196, 196, 196, 0.22);
 }
 progress::-moz-progress-bar {
-    background-color: rgba(196, 196, 188, 0.75);
+    background-color: rgba(196, 196, 196, 0.75);
 }
 progress::-webkit-progress-value {
-    background-color: rgba(196, 196, 188, 0.75);
+    background-color: rgba(196, 196, 196, 0.75);
 }
 #divRunningTasks span {
-    color: rgba(196, 196, 188, 0.75) !important;
+    color: rgba(196, 196, 196, 0.75) !important;
 }
 .taskProgressOuter {
     background: rgba(0, 0, 0, 0.5) !important;
-    border: 1px solid rgba(196, 196, 188, 0.22);
+    border: 1px solid rgba(196, 196, 196, 0.22);
 }
 .taskProgressInner {
-    background: rgba(196, 196, 188, 0.75) !important;
+    background: rgba(196, 196, 196, 0.75) !important;
 }
 #scheduledTasksPage span {
-    color: rgba(196, 196, 188, 0.75) !important;
+    color: rgba(196, 196, 196, 0.75) !important;
 }
 .progressring-spiner {
     border-color: #808080;
@@ -586,33 +589,33 @@ div[data-role="controlgroup"] a.ui-btn-active {
     color: #fff !important;
 }
 a[data-role="button"]:hover {
-    background: rgba(196, 196, 188, 0.8) !important;
+    background: rgba(196, 196, 196, 0.8) !important;
 }
 div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     margin: 0 !important;
 }
 .button-submit:hover {
-    background: rgba(196, 196, 188, 0.8);
+    background: rgba(196, 196, 196, 0.8);
 }
 
 .cardOverlayContainer {
     background-color: rgba(0, 0, 0, 0.3);
 }
 .button-flat:hover {
-    color: #5D5D62;
+    color: #5D5D5D;
 }
 .actionSheetMenuItem:hover {
-    background-color: #5D5D62;
+    background-color: #5D5D5D;
 }
 
 .dashboardFooter {
     display: none;
 }
 .button-submit:focus {
-    background-color: #5D5D62;
+    background-color: #5D5D5D;
 }
 .toastVisible {
-    color: #5D5D62;
+    color: #5D5D5D;
     background: #E4E4E4;
 }
 @media not all and (min-resolution: 0.001dpcm) {
@@ -629,10 +632,10 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     color: #808080;
 }
 .mdl-spinner__layer-1 {
-    border-color: #5D5D62;
+    border-color: #5D5D5D;
 }
 .mdl-spinner__layer-2 {
-    border-color: #8B8B7E;
+    border-color: #8B8B8B;
 }
 .mdl-spinner__layer-3 {
     border-color: #808080;
@@ -671,10 +674,10 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     display: none !important;
 }
 .playstatebutton-icon-played {
-    color: #8B8B7E;
+    color: #8B8B8B;
 }
 .playstatebutton-icon-played:hover {
-    color: #5D5D62;
+    color: #5D5D5D;
 }
 
 .layout-desktop .detailImageContainer .card {
@@ -682,16 +685,16 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 }
 
 .button-accent-flat {
-    color: #8B8B7E !important;
+    color: #8B8B8B !important;
 }
 .jstree-default .jstree-wholerow-clicked {
-    background: #8B8B7E !important;
+    background: #8B8B8B !important;
 }
 .metadataSidebarIcon {
-    color: #5D5D62;
+    color: #5D5D5D;
 }
 .jstree-wholerow-hovered {
-    background: #8B8B7E !important;
+    background: #8B8B8B !important;
 }
 .collapseContent,
 .formDialogFooter:not(.formDialogFooter-clear),
@@ -701,26 +704,26 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     background-color: rgba(0, 0, 0, 0) !important;
 }
 .ratingbutton-icon-withrating {
-    color: #5D5D62;
+    color: #5D5D5D;
 }
 .playerStats-stat-label,
 .sectionTitleTextButton:hover {
     color: #808080 !important;
 }
 .selectionCommandsPanel {
-    background: #5D5D62;
+    background: #5D5D5D;
 }
 .itemSelectionPanel {
-    border-top-color: #5D5D62;
+    border-top-color: #5D5D5D;
     border-top-style: solid;
     border-top-width: 1px;
-    border-right-color: #5D5D62;
+    border-right-color: #5D5D5D;
     border-right-style: solid;
     border-right-width: 1px;
-    border-bottom-color: #5D5D62;
+    border-bottom-color: #5D5D5D;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    border-left-color: #5D5D62;
+    border-left-color: #5D5D5D;
     border-left-style: solid;
     border-left-width: 1px;
     border-image-outset: 0;
@@ -730,10 +733,10 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     border-image-width: 1;
 }
 .button-submit {
-    background: #5D5D62;
+    background: #5D5D5D;
 }
 .overview-expand emby-button:hover {
-    color: #5D5D62;
+    color: #5D5D5D;
 }
 #btnShutdown.raised.emby-button:hover,
 #deviceDeleteAll.raised.button-alt.headerHelpButton.emby-button:hover {
@@ -749,7 +752,7 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     background: #E4E4E4;
 }
 .raised.emby-button:hover {
-    color: #5D5D62;
+    color: #5D5D5D;
     background: #E4E4E4;
 }
 .fab.btnAddDevice.submit.sectionTitleButton.emby-button:hover,
@@ -760,7 +763,7 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
 }
 .sessionCardFooter.cardFooter,
 .visualCardBox-cardFooter {
-    color: #5D5D62;
+    color: #5D5D5D;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -780,8 +783,8 @@ div[data-role="controlgroup"] a[data-role="button"] + a[data-role="button"] {
     border-bottom-right-radius: 10px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    color: #5D5D62;
-    background: #808080;
+    color: #EEEEEE;
+    background: rgba(128, 128, 128, 0.2); 
     box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 }
 .subtitleSyncContainer {
